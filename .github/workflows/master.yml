@@ -1,5 +1,8 @@
 name: GitHub Flow Demo
-on: [push]
+on:
+  push:
+    branches:
+      - master
 jobs:
   Demo-GitHub-Actions:
     runs-on: ubuntu-latest
